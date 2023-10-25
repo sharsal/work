@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(168, 0, 0);
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 7px;
+    float: left;
+    cursor: pointer;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+li a:hover {
+    color: yellow;
+    transition: .3s ease-in;
+}
+
+.wrapper{
+   color: #fff;
+   margin-top: 45px;
+    margin-left:5%;
+}
+span{
+    font-size: 3.5vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.multi{
+    font-weight: 800;
+    color:#00a2ed;
+    text-transform: capitalize;
+}
+.iam {
+  
+    padding-top: 20px;
+    padding-left: 180px;
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+}
+.iam h1{
+    color: white;
+    display: inline-block;
+    
+}
+.iam h2{
+    color: yellow;
+    font-size: 70px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.icon {
+
+    float: left;
+}
+
+.icon a {
+  
+    margin-top: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    color: white;
+    /*border: 2px solid #0ef;*/
+    border: 2px solid yellow;
+    border-radius: 50%;
+    margin-left: 5px;
+   text-decoration: none;
+}
+
+.icon a:hover {
+
+    text-decoration: none;
+    color: black;
+    /*  background-color: cyan;
+    box-shadow: 0 0 20px cyan; */
+    background-color: yellow;
+    box-shadow: 0 0 50px yellow;
+}
+.accordion accordion-flush{
+    background-color: yellow;
+}
+.hover{
+    width: 50%;
+    text-align: center;
+    padding-left: 2rem;
+    margin: auto;
+    padding-bottom:5rem;
+}
+.accordion-item .accordion-header{
+    background-color: red;
+}
+.accordion-header{
+    background-color: yellow;
+}
+.service h2{
+    font-size: 2rem;
+    padding-top: 20px;
+    background-color: yellow;
+    height: 5rem;
+    font-weight: 600;
+}
+@media  screen and  (max-width:991px){
+   .icon a{
+    margin-left: -50%;
+   }
+   li{
+    width: 35%;
+   display: inline;
+    
+   }
+   .service{
+   margin-top: 20px;
+   margin-left: 10px;
+   }
+   li button{
+    width: 15%;
+
+   }
+   .icon{
+    padding-left: 200px;
+   }
+   .service button{
+    font-size: 10px;
+   }
+}
+@media  screen and  (max-width:992px){
+    .icon{
+        padding-left: 15rem;
+    }
+    .service h2{
+        font-size: 1.5rem;
+    }
+}
+@media  screen and  (max-width:640px){
+    .icon{
+        padding-left: 15rem;
+    }
+    li a{
+        font-size: 15px;
+       
+        }
+}
+@media  screen and  (max-width:540px){
+    .icon{
+padding: auto;
+    }
+}
+
+@media  screen and  (max-width:500px){
+   .icon {
+    padding-left: 45%;
+    padding-top: -80px;
+   }
+   .service button{
+    font-size: 10px;
+   }
+.iam h1
+  {
+    font-size: 20px;
+  }
+
+.iam h2
+  {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+.iam{
+    margin-left: -10%;
+}
+}
+.hover{
+    padding-top: 10rem;
+}
+@media  screen and  (max-width:600px){
+    li a{
+        font-size: 12px;
+       padding: 0 5px;
+        }
+   nav{
+    text-align: center;
+   }
+}
+@media  screen and  (max-width:512px){
+  li a{
+        top: -10px;
+    }
+    nav{
+        height: 50px;
+    }
+}
